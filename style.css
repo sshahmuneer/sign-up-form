@@ -51,6 +51,11 @@ h1 {
     height: 10vh;
 }
 
+.odin-logo-text {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4rem;
+}
+
 .right-section {
     width: 60vw;
     /* background-color: #000000; */
