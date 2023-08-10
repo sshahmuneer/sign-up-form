@@ -1,7 +1,5 @@
 :root {
     --color: #596D48;
-    /* --txt: rgb(185, 185, 185); */
-    /* --txt: black; */
 }
 
 * {
@@ -9,7 +7,6 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    /* color: var(--txt); */
 }
 
 .container {
@@ -17,8 +14,6 @@
     flex-flow: row wrap;
     width: 100vw;
     height: 100vh;
-
-    /* color: var(--txt); */
 }
 
 .left-section {
@@ -34,7 +29,6 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-
     height: auto;
     background-color: rgba(0, 0, 0, 0.5);
     position: relative;
@@ -58,9 +52,7 @@ h1 {
 
 .right-section {
     width: 60vw;
-    /* background-color: #000000; */
     background-color: #e6e6e6;
-
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -70,7 +62,6 @@ h1 {
     font-weight: 500;
     width: 85%;
     font-size: 1.4rem;
-
     margin-bottom: 7vh;
     padding-left: 3vw;
 }
@@ -87,7 +78,6 @@ h1 {
     gap: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-
     padding-left: 3vw;
 }
 
@@ -110,29 +100,21 @@ input {
     background-color: white;
     border: 1px solid rgb(77, 77, 77);
     border-radius: 3px;
-
-    /* color: var(--txt); */
-    /* color: black; */
 }
 
 input:focus {
     outline: none;
-    /* border: 2px solid var(--color); */
     border: 2px solid blue;
 }
 
 input[type="submit"] {
-    /* background-color: rgba(0, 0, 0, 0); */
     background-color: var(--color);
-    /* color: var(--color); */
     color: #e6e6e6;
     font-weight: 700;
     font-size: 1.2em;
-    /* border: 2px solid black; */
     border-radius: 5px;
     padding: 10px 40px;
     margin: 40px 0;
-
     margin-left: 3vw;
 
 }
@@ -145,7 +127,6 @@ input[type="submit"]:hover{
 .log-in {
     display: flex;
     gap: 5px;
-
     padding-left: 3vw;
 }
 
